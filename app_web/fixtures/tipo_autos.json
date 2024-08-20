@@ -1,0 +1,72 @@
+[
+    {
+        "model": "app_web.tipoauto",
+        "pk": 1,
+        "fields": {
+            "tipo_auto": "Sedan"
+        }
+    },
+    {
+        "model": "app_web.tipoauto",
+        "pk": 2,
+        "fields": {
+            "tipo_auto": "Pickup"
+        }
+    },
+    {
+        "model": "app_web.tipoauto",
+        "pk": 3,
+        "fields": {
+            "tipo_auto": "SUV"
+        }
+    },
+    {
+        "model": "app_web.tipoauto",
+        "pk": 4,
+        "fields": {
+            "tipo_auto": "Van"
+        }
+    },
+    {
+        "model": "app_web.tipoauto",
+        "pk": 5,
+        "fields": {
+            "tipo_auto": "Coupe"
+        }
+    },
+    {
+        "model": "app_web.tipoauto",
+        "pk": 6,
+        "fields": {
+            "tipo_auto": "Convertible"
+        }
+    },
+    {
+        "model": "app_web.tipoauto",
+        "pk": 7,
+        "fields": {
+            "tipo_auto": "Hatchback"
+        }
+    },
+    {
+        "model": "app_web.tipoauto",
+        "pk": 8,
+        "fields": {
+            "tipo_auto": "Wagon"
+        }
+    },
+    {
+        "model": "app_web.tipoauto",
+        "pk": 9,
+        "fields": {
+            "tipo_auto": "Crossover"
+        }
+    },
+    {
+        "model": "app_web.tipoauto",
+        "pk": 10,
+        "fields": {
+            "tipo_auto": "Deportivo"
+        }
+    }
+]
