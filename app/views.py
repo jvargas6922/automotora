@@ -8,6 +8,7 @@ from django.contrib.auth.models import User
 
 # Create your views here.
 def list_card(request):
+    
     return render(request, 'car/index.html')
 
 def register(request):
