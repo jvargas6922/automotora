@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app_web',
+    'app',
 ]
 
 MIDDLEWARE = [
@@ -128,7 +128,9 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static/js',
 ]
 
-AUTH_USER_MODEL = 'app_web.Usuario'
+LOGIN_REDIRECT_URL = '/app/list_card/'
+LOGOUT_REDIRECT_URL = '/login/'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
