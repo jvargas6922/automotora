@@ -1,6 +1,6 @@
 [
     {
-        "model": "app_web.auto",
+        "model": "app.auto",
         "pk": 1,
         "fields": {
             "nombre": "Toyota Corolla",
@@ -11,11 +11,11 @@
             "precio": 15000,
             "tipo_auto": 1,
             "comuna": 1,
-            "usuario": 1
+            "usuario": 4
         }
     },
     {
-        "model": "app_web.auto",
+        "model": "app.auto",
         "pk": 2,
         "fields": {
             "nombre": "Honda Civic",
@@ -26,11 +26,11 @@
             "precio": 14000,
             "tipo_auto": 2,
             "comuna": 2,
-            "usuario": 2
+            "usuario": 4
         }
     },
     {
-        "model": "app_web.auto",
+        "model": "app.auto",
         "pk": 3,
         "fields": {
             "nombre": "Ford F-150",
@@ -41,7 +41,7 @@
             "precio": 30000,
             "tipo_auto": 3,
             "comuna": 3,
-            "usuario": 3
+            "usuario": 4
         }
     }
 ]

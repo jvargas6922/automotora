@@ -43,3 +43,31 @@ class LoginForm(forms.ModelForm):
         user = authenticate(username=correo_electronico, password=self.cleaned_data.get('password'))
         return user
     
+class AutoForm(forms.ModelForm):
+    class Meta:
+        model = Auto
+        fields = [
+            'nombre',
+            'nro_asiento',
+            'modelo',
+            'anio',
+            'marca',
+            'nro_venta',
+            'precio',
+            'tipo_auto',
+            'comuna',
+            'usuario'
+        ]
+        widgets = {
+            'nombre': forms.TextInput(attrs={'class': 'form-control'}),
+            'nro_asiento': forms.NumberInput(attrs={'class': 'form-control'}),
+            'modelo': forms.TextInput(attrs={'class': 'form-control'}),
+            'anio': forms.NumberInput(attrs={'class': 'form-control'}),
+            'marca': forms.TextInput(attrs={'class': 'form-control'}),
+            'nro_venta': forms.NumberInput(attrs={'class': 'form-control'}),
+            'precio': forms.NumberInput(attrs={'class': 'form-control'}),
+            'tipo_auto': forms.Select(attrs={'class': 'form-control'}),
+            'comuna': forms.Select(attrs={'class': 'form-control'}),
+            'usuario': forms.Select(attrs={'class': 'form-control'}),
+        }
+    

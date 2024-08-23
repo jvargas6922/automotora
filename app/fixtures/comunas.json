@@ -1,6 +1,6 @@
 [
     {
-        "model": "app_web.comuna",
+        "model": "app.comuna",
         "pk": 1,
         "fields": {
             "comuna": "Santiago",
@@ -8,7 +8,7 @@
         }
     },
     {
-        "model": "app_web.comuna",
+        "model": "app.comuna",
         "pk": 2,
         "fields": {
             "comuna": "Ñuñoa",
@@ -16,7 +16,7 @@
         }
     },
     {
-        "model": "app_web.comuna",
+        "model": "app.comuna",
         "pk": 3,
         "fields": {
             "comuna": "Providencia",

@@ -6,6 +6,25 @@
 
 
 {% block content %}
-
-
+<div class="text-center mb-3">
+    <h2>Listado autos</h2>
+    <a href="{% url 'create_car' %}" class="btn btn-primary">Agregar auto</a>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        {% for data in cars  %}
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title text-center">{{ data.nombre }}</h5>
+                  <p class="card-text">Precio: ${{ data.precio }}</p>
+                  <p class="card-text">Tipo: {{ data.tipo_auto }}</p>
+                  <p class="card-text">Dueño: {{ data.usuario }}</p>
+                  <a href="#" class="btn btn-secondary">Detalle</a>
+                </div>
+              </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 {% endblock  %}
